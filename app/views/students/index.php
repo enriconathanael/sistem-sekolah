@@ -6,7 +6,7 @@
     <title>Daftar Siswa</title>
     <link rel="stylesheet" href="/css/output.css">
 </head>
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col bg-gray-300">
     <!-- Header Start -->
     <header class="bg-blue-900 text-white">
         <div class="flex items-center justify-between container mx-auto p-5">
@@ -19,21 +19,45 @@
 
     <!-- Main Start -->
     <main class="container mx-auto grow">
-        <div class="mt-8">
+        <div class="mt-8 space-y-2">
             <!-- Card Header Start-->
-             <div class="p-4 shadow rounded-lg bg-gray-200 border-2 mb-8">
-                <h1 class="text-2xl font-bold ">Daftar Siswa</h1>
-                <p>Menampilkan daftar siswa yang terdaftar</p>
-            </div>
-             <div class="p-4 shadow rounded-lg bg-gray-200 border-2 mb-8">
-                <h1 class="text-2xl font-bold ">Daftar Siswa</h1>
-                <p>Menampilkan daftar siswa yang terdaftar</p>
-            </div>
-             <div class="p-4 shadow rounded-lg bg-gray-200 border-2">
+             <div class="p-4 shadow rounded-lg bg-white">
                 <h1 class="text-2xl font-bold ">Daftar Siswa</h1>
                 <p>Menampilkan daftar siswa yang terdaftar</p>
             </div>
              <!-- Card Header End -->
+            
+             <!-- Card Body Start -->
+              <div class="bg-white shadow rounded-lg">
+                <table class="w-full">
+                    <thead class="bg-gray-200">
+                        <tr>
+                            <th class="px-4 py-2 text-left">No</th>
+                            <th class="px-4 py-2 text-left">Nama</th>
+                            <th class="px-4 py-2 text-left">NIS</th>
+                            <th class="px-4 py-2 text-left">Kelas</th>
+                            <th class="px-4 py-2 text-left">No Telepon</th>
+                            <th class="px-4 py-2">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td class="px-4 py-2 text">1</td>
+                        <td class="px-4 py-2 text">Andi</td>
+                        <td class="px-4 py-2 text">6767</td>
+                        <td class="px-4 py-2 text">XI TKJ 2</td>
+                        <td class="px-4 py-2 text">08676767676</td>
+                        <td class="px-4 py-2">
+                            <div class="flex justify-center items-center gap-4">
+                                <a href="" class="text-green-500">Detail</a>
+                                <a href="" class="text-yellow-500">Edit</a>
+                                <a href="" class="text-red-500">Hapus</a>
+                            </div>
+                        </td>
+                    </tbody>
+                </table>
+              </div>
+
+              <!-- Card Body End -->
         </div>
     </main>
     <!-- Main End -->
