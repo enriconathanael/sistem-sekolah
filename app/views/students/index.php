@@ -50,7 +50,7 @@
                             <div class="flex justify-center items-center gap-4">
                                 <a href="" class="text-green-500">Detail</a>
                                 <a href="" class="text-yellow-500">Edit</a>
-                                <a href="" class="text-red-500">Hapus</a>
+                                <a href="" class="text-red-500 shadow rounded-lg p-2">Hapus</a>
                             </div>
                         </td>
                     </tbody>
