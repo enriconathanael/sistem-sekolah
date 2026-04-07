@@ -6,9 +6,9 @@
     <title>Tambah Siswa</title>
     <link rel="stylesheet" href="/css/output.css">
 </head>
-<body class="min-h-screen flex flex-col bg-gray-300">
+<body class="min-h-screen flex flex-col bg-gray-200">
     <!-- Header Start -->
-    <header class="bg-blue-900 text-white">
+    <header class="bg-blue-800 text-white">
         <div class="flex items-center justify-between container mx-auto p-5">
             <a href="/students" class="font-bold text-xl">Sistem Sekolah</a>
             <a href="/students/create" class="bg-white text-blue-500 px-4 py-2 rounded-lg">+ Tambah Siswa</a>
@@ -45,6 +45,10 @@
                     <div class="space-y-2">
                         <label class="block font-bold" for="phone_number">No Telepon</label>
                         <input class="w-full px-4 py-2 border rounded-lg" type="text" id="name" placeholder="Masukkan nama" name="phone_number">
+                    </div>
+                    <div class="flex justify-end col-span-2 gap-4">
+                        <a href="/students" class="py-2 px-4 bg-gray-100 rounded-lg">Kembali</a>
+                        <button type="submit" class="py-2 px-4 bg-blue-500 rounded-lg text-white">Simpan</button>
                     </div>
                 </form>
               </div>
