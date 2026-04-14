@@ -15,6 +15,7 @@ class Database
         );
         if (!$this->connection) {
             die ('Error to connect the database');
+        }
     }
 
 }
